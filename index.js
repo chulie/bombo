@@ -11,7 +11,7 @@ bot.on("guildMemberAdd", async member => {
   console.log(`${member.id} a rejoint le discord`);
   let welcomechannel = member.guild.channels.find(`name`, "général");
   let questionsChannel = member.guild.channels.find(`name`, "questions");
-  let filesChannel = member.guild.channels.find(`name`, "fichiers-à-remplir");
+  let filesChannel = member.guild.channels.find(`name`, "fichier-à-remplir");
   let propositionChannel = member.guild.channels.find(`name`, "proposition-activité");
   let annoncesChannel = member.guild.channels.find(`name`, "annonce");
 
